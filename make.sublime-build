@@ -1,0 +1,22 @@
+{
+	"cmd": ["make"],
+	"path":"c:\\cygwin64\\bin\\",
+	"shell":false,
+	"working_dir":"$file_path",
+	
+	"variants":
+	[
+		{
+			"name":"Run",
+			"cmd":["make", "run"]
+		},
+		{
+			"name": "Clean",
+			"cmd": ["make", "clean"]
+		},
+		{
+			"name":"Debug",
+			"cmd":["make","debug"]
+		}
+	]
+}

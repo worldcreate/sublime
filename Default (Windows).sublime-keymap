@@ -1,4 +1,5 @@
 [
 	{ "keys": ["ctrl+shift+c"], "command": "build", "args": {"variant": "Clean"} },
-	{ "keys": ["ctrl+shift+d"], "command": "build", "args": {"variant": "Debug"} }
+	{ "keys": ["ctrl+shift+d"], "command": "build", "args": {"variant": "Debug"} },
+	{ "keys": ["ctrl+shift+t"], "command": "build", "args": {"variant": "test"} }
 ]
